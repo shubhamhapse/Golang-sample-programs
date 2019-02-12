@@ -28,5 +28,5 @@ func sender(c chan int){
 
 func main()  {
 	wg.Add(2)
-
+	c:=make(chan int)
 }
